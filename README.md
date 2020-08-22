@@ -1,7 +1,6 @@
 ### Hi im Samuel  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 Here i work on small projects and big ones
 
-- 💭 Currently Working on something big
 - 🤖 Im Learning programming for robotics
 
 - **🌟 Some of my favorite projects**
