@@ -14,6 +14,7 @@ Here i work on small projects and big projects
     - Golang
     - Java
     - Python
+    - c++ (basic)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
