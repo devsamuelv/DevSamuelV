@@ -6,7 +6,6 @@ Here i work on small projects and big projects
 - <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="25px"> My Favorite UI Libary is Tailwindcss
 
 - **🌟 Some of my favorite projects**
-    - <img style="margin-top: 10px;" height="20" width="20" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" /> **PinkDiscordBotV3** [A Discord Bot](https://discord.com/api/oauth2/authorize?client_id=632687408793780275&permissions=8&scope=bot)
     - <img style="margin-top: 10px;" height="22" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/first.svg" /> **Offseason-Code** [An FTC Robot](https://github.com/DevSamuelV/Offseason-Skystone)
 
 - **My Most Used Languages**
