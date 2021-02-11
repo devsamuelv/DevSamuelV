@@ -7,6 +7,7 @@ Here i work on small projects and big projects
 
 - **🌟 Some of my favorite projects**
     - <img style="margin-top: 10px;" height="22" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/first.svg" /> **Offseason-Code** [An FTC Robot](https://github.com/DevSamuelV/Offseason-Skystone)
+    - <img style="margin-top: 10px;" height="22" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/first.svg" /> **FRC-2021-Second-Robot** [An FRC Robot](https://github.com/DevSamuelV/FRC_2021_Second_Robot)
 
 - **My Most Used Languages**
     - Typescript
