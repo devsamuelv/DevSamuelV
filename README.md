@@ -2,7 +2,7 @@
 
 - 🤖 Im Learning programming for robotics
 
-- <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="25px"> My Favorite UI Libary is Tailwindcss
+- <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="15px"> My Favorite UI Libary is Tailwindcss
 
 - **🌟 Some of my favorite projects**
     - <img style="margin-top: 10px;" height="22" width="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/first.svg" /> **Offseason-Code** [An FTC Robot](https://github.com/DevSamuelV/Offseason-Skystone)
