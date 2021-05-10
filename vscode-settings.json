@@ -1,0 +1,297 @@
+{
+	"go.useLanguageServer": true,
+	"editor.lineHeight": 23,
+	"editor.fontWeight": "500",
+	"editor.fontFamily": "Fira Code, Jetbrains Mono",
+
+	"editor.fontLigatures": true,
+	// "editor.sp"
+
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "emphasis",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "strong",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "entity.other.attribute-name",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": "markup.underline",
+				"settings": {
+					"fontStyle": "underline"
+				}
+			},
+			{
+				"scope": "markup.bold",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "markup.heading",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "markup.italic",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "String interpolation",
+				"scope": [
+					"punctuation.definition.template-expression.begin",
+					"punctuation.definition.template-expression.end",
+					"punctuation.section.embedded"
+				],
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"name": "this.self",
+				"scope": "variable.language",
+				"settings": {
+					"fontStyle": "italic bold"
+				}
+			},
+			{
+				"name": "@Decorator",
+				"scope": ["meta.decorator punctuation.decorator"],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": ["punctuation.definition.comment", "comment"],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "emphasis",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "strong",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "entity.other.attribute-name",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": "markup.underline",
+				"settings": {
+					"fontStyle": "underline"
+				}
+			},
+			{
+				"scope": "markup.bold",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "markup.heading",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "markup.italic",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "String interpolation",
+				"scope": [
+					"punctuation.definition.template-expression.begin",
+					"punctuation.definition.template-expression.end",
+					"punctuation.section.embedded"
+				],
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"name": "this.self",
+				"scope": "variable.language",
+				"settings": {
+					"fontStyle": "italic bold"
+				}
+			},
+			{
+				"name": "@Decorator",
+				"scope": ["meta.decorator punctuation.decorator"],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": ["punctuation.definition.comment", "comment"],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"editor.formatOnSave": true,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/.next/**": true,
+		"**/.next/cache/**": true,
+		"**/.next/server/**": true,
+		"**/.next/static/**": true,
+		"**/node_modules/*/**": true,
+		"**/yarn-error.txt": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[go]": {
+		"editor.insertSpaces": false,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[java]": {
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"search.exclude": {
+		"**/next": true,
+		"**/node_modules": false,
+		"**/node_modules/**": true
+	},
+	"files.exclude": {
+		"**/node_modules/**": true,
+		"**/tags": true,
+		"**/yarn.lock": true,
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"python.languageServer": "Pylance",
+	"diffEditor.ignoreTrimWhitespace": true,
+	"workbench.preferredLightColorTheme": "Simple Dark",
+	"workbench.preferredDarkColorTheme": "Arkham Theme",
+	"editor.quickSuggestionsDelay": 1,
+	"editor.suggestLineHeight": 26,
+	"editor.tabSize": 2,
+	"terminal.integrated.fontFamily": "Jetbrains Mono, Menlo for Powerline",
+	"prettier.useTabs": true,
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
+	"codestream.email": "realalloutmusic@gmail.com",
+	"codestream.showMarkerGlyphs": true,
+	"codestream.showInStatusBar": "left",
+	"codestream.showMarkerCodeLens": true,
+	"terminal.integrated.fontWeight": "normal",
+	"maven.executable.path": "~/Documents/apache-maven-3.6.3/bin",
+	"java.refactor.renameFromFileExplorer": "preview",
+	"go.toolsManagement.autoUpdate": true,
+	"[prisma]": {
+		"editor.minimap.enabled": false
+	},
+	"cryptoticker.cryptoSymbols": ["BTC"],
+	"workbench.iconTheme": "moxer-icons",
+	"editor.fontSize": 12,
+	"editor.cursorStyle": "block",
+	"workbench.colorTheme": "One Dark Pro",
+	"redhat.telemetry.enabled": true,
+	"terminal.integrated.tabs.enabled": true
+}
