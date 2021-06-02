@@ -12,6 +12,7 @@
     - Typescript
     - Golang
     - Java
+    - C#
     - Python
     - c++ (basic)
 
