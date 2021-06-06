@@ -14,6 +14,7 @@
     - Java
     - C#
     - Python
+    - Lua (basic)
     - c++ (basic)
 
 <!--START_SECTION:waka-->
