@@ -19,8 +19,8 @@
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
-    - [tailwindcss](https://tailwindcss.com")
-    - [fontisto]("https://fontisto.com/")
+    - [tailwindcss](https://tailwindcss.com)
+    - [fontisto](https://fontisto.com/)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
