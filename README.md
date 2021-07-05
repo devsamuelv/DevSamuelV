@@ -1,4 +1,4 @@
-# Hi im Samuel  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> A 16 year old Developer from Florida
+# Hi im Samuel  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> A 16 year old developer from Florida
 
 - 🤖 Im Learning programming for robotics
 
