@@ -17,6 +17,7 @@
     - [colortopia](https://colortopia.io/)
     - [tailwindcss](https://tailwindcss.com)
     - [fontisto](https://fontisto.com/)
+    - [inkdrop](https://www.inkdrop.app/)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
