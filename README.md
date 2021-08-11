@@ -12,6 +12,7 @@
     - Python
     - Lua (basic)
     - c++ (basic)
+    - c (basic)
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
