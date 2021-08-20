@@ -2,213 +2,258 @@
 	"go.useLanguageServer": true,
 	"editor.lineHeight": 23,
 	"editor.fontWeight": "500",
-	"editor.fontFamily": "Fira Code, Jetbrains Mono",
-
+	"editor.fontFamily": "Source Code Pro Medium",
 	"editor.fontLigatures": true,
+
 	// "editor.sp"
 
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": "emphasis",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "strong",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "entity.other.attribute-name",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": "markup.underline",
-				"settings": {
-					"fontStyle": "underline"
-				}
-			},
-			{
-				"scope": "markup.bold",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.heading",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.italic",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"name": "String interpolation",
-				"scope": [
-					"punctuation.definition.template-expression.begin",
-					"punctuation.definition.template-expression.end",
-					"punctuation.section.embedded"
-				],
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"name": "this.self",
-				"scope": "variable.language",
-				"settings": {
-					"fontStyle": "italic bold"
-				}
-			},
-			{
-				"name": "@Decorator",
-				"scope": ["meta.decorator punctuation.decorator"],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": ["punctuation.definition.comment", "comment"],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": [
-					"entity.name.type.class",
-					"keyword",
-					"constant",
-					"storage.modifier",
-					"storage.type",
-					"storage.type.class.js"
-				],
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": [
-					"invalid",
-					"keyword.operator",
-					"constant.numeric.css",
-					"keyword.other.unit.px.css",
-					"constant.numeric.decimal.js",
-					"constant.numeric.json"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			},
-			{
-				"scope": "emphasis",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "strong",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "entity.other.attribute-name",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": "markup.underline",
-				"settings": {
-					"fontStyle": "underline"
-				}
-			},
-			{
-				"scope": "markup.bold",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.heading",
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "markup.italic",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"name": "String interpolation",
-				"scope": [
-					"punctuation.definition.template-expression.begin",
-					"punctuation.definition.template-expression.end",
-					"punctuation.section.embedded"
-				],
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"name": "this.self",
-				"scope": "variable.language",
-				"settings": {
-					"fontStyle": "italic bold"
-				}
-			},
-			{
-				"name": "@Decorator",
-				"scope": ["meta.decorator punctuation.decorator"],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": ["punctuation.definition.comment", "comment"],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": [
-					"entity.name.type.class",
-					"keyword",
-					"constant",
-					"storage.modifier",
-					"storage.type",
-					"storage.type.class.js"
-				],
-				"settings": {
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": [
-					"invalid",
-					"keyword.operator",
-					"constant.numeric.css",
-					"keyword.other.unit.px.css",
-					"constant.numeric.decimal.js",
-					"constant.numeric.json"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			}
-		]
+	// "editor.tokenColorCustomizations": {
+	// 	"textMateRules": [
+	// 		{
+	// 			"scope": "emphasis",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "strong",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "entity.other.attribute-name",
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.underline",
+	// 			"settings": {
+	// 				"fontStyle": "underline"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.bold",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.heading",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.italic",
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "String interpolation",
+	// 			"scope": [
+	// 				"punctuation.definition.template-expression.begin",
+	// 				"punctuation.definition.template-expression.end",
+	// 				"punctuation.section.embedded"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "this.self",
+	// 			"scope": "variable.language",
+	// 			"settings": {
+	// 				"fontStyle": "italic bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "@Decorator",
+	// 			"scope": ["meta.decorator punctuation.decorator"],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": ["punctuation.definition.comment", "comment"],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": [
+	// 				"entity.name.type.class",
+	// 				"keyword",
+	// 				"constant",
+	// 				"storage.modifier",
+	// 				"storage.type",
+	// 				"storage.type.class.js"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": [
+	// 				"invalid",
+	// 				"keyword.operator",
+	// 				"constant.numeric.css",
+	// 				"keyword.other.unit.px.css",
+	// 				"constant.numeric.decimal.js",
+	// 				"constant.numeric.json"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": ""
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "emphasis",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "strong",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "entity.other.attribute-name",
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.underline",
+	// 			"settings": {
+	// 				"fontStyle": "underline"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.bold",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.heading",
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": "markup.italic",
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "String interpolation",
+	// 			"scope": [
+	// 				"punctuation.definition.template-expression.begin",
+	// 				"punctuation.definition.template-expression.end",
+	// 				"punctuation.section.embedded"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "this.self",
+	// 			"scope": "variable.language",
+	// 			"settings": {
+	// 				"fontStyle": "italic bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"name": "@Decorator",
+	// 			"scope": ["meta.decorator punctuation.decorator"],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": ["punctuation.definition.comment", "comment"],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": [
+	// 				"entity.name.type.class",
+	// 				"keyword",
+	// 				"constant",
+	// 				"storage.modifier",
+	// 				"storage.type",
+	// 				"storage.type.class.js"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "bold"
+	// 			}
+	// 		},
+	// 		{
+	// 			"scope": [
+	// 				"invalid",
+	// 				"keyword.operator",
+	// 				"constant.numeric.css",
+	// 				"keyword.other.unit.px.css",
+	// 				"constant.numeric.decimal.js",
+	// 				"constant.numeric.json"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": ""
+	// 			}
+	// 		}
+	// 	]
+	// },
+	"Lua.diagnostics.disable": [
+		"unused-local",
+		"lowercase-global",
+		"unused-function"
+	],
+	"Lua.diagnostics.severity": {
+		"redefined-local": "Warning"
 	},
+	"Lua.diagnostics.globals": [
+		"printError",
+		"sleep",
+		"read",
+		"write",
+		"print",
+		"colours",
+		"colors",
+		"commands",
+		"disk",
+		"fs",
+		"gps",
+		"help",
+		"http",
+		"paintutils",
+		"parallel",
+		"peripheral",
+		"rednet",
+		"redstone",
+		"keys",
+		"settings",
+		"shell",
+		"multishell",
+		"term",
+		"textutils",
+		"turtle",
+		"pocket",
+		"vector",
+		"bit32",
+		"window",
+		"_CC_DEFAULT_SETTINGS",
+		"_HOST",
+		"_VERSION",
+		"_"
+	],
+	"Lua.runtime.version": "Lua 5.1",
+
 	"editor.formatOnSave": true,
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
@@ -265,33 +310,66 @@
 	"workbench.preferredLightColorTheme": "Simple Dark",
 	"workbench.preferredDarkColorTheme": "Arkham Theme",
 	"editor.quickSuggestionsDelay": 1,
-	"editor.suggestLineHeight": 26,
+	"editor.suggestLineHeight": 28,
 	"editor.tabSize": 2,
-	"terminal.integrated.fontFamily": "Jetbrains Mono, Menlo for Powerline",
+	"terminal.integrated.fontFamily": "JetBrains Mono NL",
 	"prettier.useTabs": true,
 	"workbench.productIconTheme": "fluent-icons",
-	"workbench.editorAssociations": [
-		{
-			"viewType": "jupyter.notebook.ipynb",
-			"filenamePattern": "*.ipynb"
-		}
-	],
-	"codestream.email": "realalloutmusic@gmail.com",
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
 	"codestream.showMarkerGlyphs": true,
 	"codestream.showInStatusBar": "left",
 	"codestream.showMarkerCodeLens": true,
 	"terminal.integrated.fontWeight": "normal",
 	"maven.executable.path": "~/Documents/apache-maven-3.6.3/bin",
+	"java.completion.importOrder": ["java", "javax"],
 	"java.refactor.renameFromFileExplorer": "preview",
 	"go.toolsManagement.autoUpdate": true,
 	"[prisma]": {
 		"editor.minimap.enabled": false
 	},
 	"cryptoticker.cryptoSymbols": ["BTC"],
-	"workbench.iconTheme": "moxer-icons",
 	"editor.fontSize": 12,
-	"editor.cursorStyle": "block",
-	"workbench.colorTheme": "One Dark Pro",
 	"redhat.telemetry.enabled": true,
-	"terminal.integrated.tabs.enabled": true
+	"terminal.integrated.tabs.enabled": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"rojo.pluginManagement": true,
+	"java.project.importOnFirstTimeStartup": "automatic",
+	"omnisharp.useGlobalMono": "always",
+	"vs-kubernetes": {
+		"vscode-kubernetes.helm-path.linux": "/home/samuelvillegas/.vs-kubernetes/tools/helm/linux-amd64/helm",
+		"vscode-kubernetes.minikube-path.linux": "/home/samuelvillegas/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+		"vscode-kubernetes.kubectl-path.linux": "/home/samuelvillegas/.vs-kubernetes/tools/kubectl/kubectl"
+	},
+	"qttools.searchMode": "path",
+	"editor.cursorBlinking": "smooth",
+	"oneDarkPro.vivid": false,
+	"oneDarkPro.italic": true,
+	"vscode-ubuntuPastebin.poster": "s",
+	"oneDarkPro.editorTheme": "oneDarkPro",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"java.home": "/usr/lib/jvm/java-16-oracle",
+	"java.import.gradle.java.home": "/usr/lib/jvm/defualt-jdk",
+	"java.import.gradle.home": "~/.sdkman/candidates/gradle/current/bin",
+	"java.import.gradle.user.home": "~/.sdkman/candidates/gradle/6.0.1",
+	"java.import.gradle.version": "7.1.1",
+	"cmake.configureOnOpen": true,
+	"java.completion.filteredTypes": [
+		"java.awt.*",
+		"com.sun.*",
+		"sun.*"
+	],
+	"workbench.colorTheme": "One Dark Pro",
+	"java.imports.gradle.wrapper.checksums": [
+		{
+			"sha256": "02563958c406a0326c54512a93ca4aa0a94bc934bf82c6bd6e6598d02b21c37b",
+			"allowed": false
+		}
+	],
+	"C_Cpp.vcFormat.indent.preserveComments": true,
+	"window.zoomLevel": 1
 }
