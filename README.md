@@ -2,7 +2,7 @@
 
 - 🤖 Im Learning WPILib for robotics
 
-- <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="15px"> My Favorite UI Libary is Tailwindcss
+- <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="15px"> My Favorite UI Library is Tailwindcss
 
 - **My Most Used Languages**
     - Typescript
