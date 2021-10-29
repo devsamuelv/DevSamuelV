@@ -9,8 +9,8 @@
     - Java
     - C#
     - Python
+    - c++
     - Lua (basic)
-    - c++ (basic)
     - c (basic)
 
 - **Web Development Tools**
