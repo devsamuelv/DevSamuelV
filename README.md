@@ -10,8 +10,8 @@
     - C#
     - Python
     - c++
-    - Lua (basic)
-    - c (basic)
+    - Lua
+    - c
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
