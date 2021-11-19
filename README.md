@@ -4,14 +4,14 @@
 - <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="15px"> My Favorite UI Library is Tailwindcss
 
 - **My Most Used Languages**
-    - Typescript
-    - Golang
     - Java
-    - C#
+    - Typescript
     - Python
+    - Golang
     - c++
-    - Lua
+    - C#
     - c
+    - Lua
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
