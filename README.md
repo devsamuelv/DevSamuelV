@@ -10,7 +10,6 @@
     - c++
     - C#
     - c
-    - Lua
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
