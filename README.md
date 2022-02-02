@@ -7,9 +7,9 @@
     - Java
     - Typescript
     - Python
-    - c++
+    - C++
     - C#
-    - c
+    - C
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
