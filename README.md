@@ -9,7 +9,6 @@
     - Python
     - C++
     - C#
-    - C
 
 - **Web Development Tools**
     - [colortopia](https://colortopia.io/)
