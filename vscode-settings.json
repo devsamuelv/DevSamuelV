@@ -1,214 +1,31 @@
 {
 	"go.useLanguageServer": true,
-	"editor.lineHeight": 23,
 	"editor.fontWeight": "500",
-	"editor.fontFamily": "Source Code Pro Medium",
-	"editor.fontLigatures": true,
+	"editor.lineHeight": 24,
+	"editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": "'calt', 'ss01'",
+	"editor.smoothScrolling": true,
 
-	// "editor.sp"
+	"terminal.integrated.tabs.enabled": true,
+	"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+	"terminal.integrated.fontSize": 15,
+	"oneDarkPro.color": {
+		"chalky": "",
+		"coral": "",
+		"dark": "",
+		"error": "",
+		"fountainBlue": "",
+		"green": "",
+		"invalid": "",
+		"lightDark": "",
+		"lightWhite": "",
+		"malibu": "",
+		"purple": "",
+		"whiskey": "",
+		"deepRed": ""
+	},
+	"oneDarkPro.markdownStyle": true,
 
-	// "editor.tokenColorCustomizations": {
-	// 	"textMateRules": [
-	// 		{
-	// 			"scope": "emphasis",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "strong",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "entity.other.attribute-name",
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.underline",
-	// 			"settings": {
-	// 				"fontStyle": "underline"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.bold",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.heading",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.italic",
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "String interpolation",
-	// 			"scope": [
-	// 				"punctuation.definition.template-expression.begin",
-	// 				"punctuation.definition.template-expression.end",
-	// 				"punctuation.section.embedded"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "this.self",
-	// 			"scope": "variable.language",
-	// 			"settings": {
-	// 				"fontStyle": "italic bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "@Decorator",
-	// 			"scope": ["meta.decorator punctuation.decorator"],
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": ["punctuation.definition.comment", "comment"],
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": [
-	// 				"entity.name.type.class",
-	// 				"keyword",
-	// 				"constant",
-	// 				"storage.modifier",
-	// 				"storage.type",
-	// 				"storage.type.class.js"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": [
-	// 				"invalid",
-	// 				"keyword.operator",
-	// 				"constant.numeric.css",
-	// 				"keyword.other.unit.px.css",
-	// 				"constant.numeric.decimal.js",
-	// 				"constant.numeric.json"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": ""
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "emphasis",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "strong",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "entity.other.attribute-name",
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.underline",
-	// 			"settings": {
-	// 				"fontStyle": "underline"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.bold",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.heading",
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": "markup.italic",
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "String interpolation",
-	// 			"scope": [
-	// 				"punctuation.definition.template-expression.begin",
-	// 				"punctuation.definition.template-expression.end",
-	// 				"punctuation.section.embedded"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "this.self",
-	// 			"scope": "variable.language",
-	// 			"settings": {
-	// 				"fontStyle": "italic bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"name": "@Decorator",
-	// 			"scope": ["meta.decorator punctuation.decorator"],
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": ["punctuation.definition.comment", "comment"],
-	// 			"settings": {
-	// 				"fontStyle": "italic"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": [
-	// 				"entity.name.type.class",
-	// 				"keyword",
-	// 				"constant",
-	// 				"storage.modifier",
-	// 				"storage.type",
-	// 				"storage.type.class.js"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": "bold"
-	// 			}
-	// 		},
-	// 		{
-	// 			"scope": [
-	// 				"invalid",
-	// 				"keyword.operator",
-	// 				"constant.numeric.css",
-	// 				"keyword.other.unit.px.css",
-	// 				"constant.numeric.decimal.js",
-	// 				"constant.numeric.json"
-	// 			],
-	// 			"settings": {
-	// 				"fontStyle": ""
-	// 			}
-	// 		}
-	// 	]
-	// },
 	"Lua.diagnostics.disable": [
 		"unused-local",
 		"lowercase-global",
@@ -254,7 +71,6 @@
 	],
 	"Lua.runtime.version": "Lua 5.1",
 
-	"editor.formatOnSave": true,
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
 		"**/.git/subtree-cache/**": true,
@@ -287,8 +103,10 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[java]": {
-		"editor.suggest.snippetsPreventQuickSuggestions": false
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.defaultFormatter": "mwpb.java-prettier-formatter"
 	},
+	"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"search.exclude": {
@@ -308,16 +126,16 @@
 	"python.languageServer": "Pylance",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"workbench.preferredLightColorTheme": "Simple Dark",
-	"workbench.preferredDarkColorTheme": "Arkham Theme",
+	"workbench.preferredDarkColorTheme": "Bearded Theme Monokai Metallian",
 	"editor.quickSuggestionsDelay": 1,
 	"editor.suggestLineHeight": 28,
-	"editor.tabSize": 2,
-	"terminal.integrated.fontFamily": "JetBrains Mono NL",
 	"prettier.useTabs": true,
-	"workbench.productIconTheme": "fluent-icons",
+	"workbench.productIconTheme": "el-vsc-v1-icons",
 	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter-notebook"
+		"*.ipynb": "jupyter-notebook",
+		"*.jar": "hexEditor.hexedit"
 	},
+	"codestream.email": "realalloutmusic@gmail.com",
 	"codestream.showMarkerGlyphs": true,
 	"codestream.showInStatusBar": "left",
 	"codestream.showMarkerCodeLens": true,
@@ -330,9 +148,7 @@
 		"editor.minimap.enabled": false
 	},
 	"cryptoticker.cryptoSymbols": ["BTC"],
-	"editor.fontSize": 12,
 	"redhat.telemetry.enabled": true,
-	"terminal.integrated.tabs.enabled": true,
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"rojo.pluginManagement": true,
 	"java.project.importOnFirstTimeStartup": "automatic",
@@ -343,27 +159,21 @@
 		"vscode-kubernetes.kubectl-path.linux": "/home/samuelvillegas/.vs-kubernetes/tools/kubectl/kubectl"
 	},
 	"qttools.searchMode": "path",
-	"editor.cursorBlinking": "smooth",
+	"editor.cursorBlinking": "phase",
 	"oneDarkPro.vivid": false,
 	"oneDarkPro.italic": true,
 	"vscode-ubuntuPastebin.poster": "s",
-	"oneDarkPro.editorTheme": "oneDarkPro",
+	"shareCode.pastebin.username": "devsamuelv",
+	"shareCode.pastebin.authtoken": "f202f97b2db7956aea2e9574a4ce4074",
+	"oneDarkPro.editorTheme": "One Dark Pro",
 	"notebook.cellToolbarLocation": {
 		"default": "right",
 		"jupyter-notebook": "left"
 	},
-	"java.home": "/usr/lib/jvm/java-16-oracle",
-	"java.import.gradle.java.home": "/usr/lib/jvm/defualt-jdk",
-	"java.import.gradle.home": "~/.sdkman/candidates/gradle/current/bin",
-	"java.import.gradle.user.home": "~/.sdkman/candidates/gradle/6.0.1",
-	"java.import.gradle.version": "7.1.1",
+	"java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17.0.1",
+	"java.import.gradle.version": "6.5.1",
 	"cmake.configureOnOpen": true,
-	"java.completion.filteredTypes": [
-		"java.awt.*",
-		"com.sun.*",
-		"sun.*"
-	],
-	"workbench.colorTheme": "One Dark Pro",
+	"java.completion.filteredTypes": ["java.awt.*", "com.sun.*", "sun.*"],
 	"java.imports.gradle.wrapper.checksums": [
 		{
 			"sha256": "02563958c406a0326c54512a93ca4aa0a94bc934bf82c6bd6e6598d02b21c37b",
@@ -371,5 +181,479 @@
 		}
 	],
 	"C_Cpp.vcFormat.indent.preserveComments": true,
-	"window.zoomLevel": 1
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.profiles.windows": {
+		"cmd.exe (migrated)": {
+			"path": "cmd.exe",
+			"args": []
+		}
+	},
+	"editor.formatOnPaste": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"remote.SSH.remotePlatform": {
+		"cloud.storagesmash.com": "linux"
+	},
+	"Lua.workspace.library": [
+		"c:\\Users\\capts\\.vscode\\extensions\\manticoregames.vscode-core-1.8.4\\out\\EmmyLua"
+	],
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+			{
+				"name": "Bearded Theme Arc",
+				"scope": [
+					"property",
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic",
+				"scope": [
+					"comment",
+					"entity.other.attribute-name",
+					"keyword",
+					"markup.underline.link",
+					"storage.modifier",
+					"storage.type",
+					"string.url",
+					"variable.language.super",
+					"variable.language.this"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "One Dark italic reset",
+				"scope": [
+					"keyword.operator",
+					"keyword.other.type",
+					"storage.modifier.import",
+					"storage.modifier.package",
+					"storage.type.built-in",
+					"storage.type.function.arrow",
+					"storage.type.generic",
+					"storage.type.java",
+					"storage.type.primitive"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"terminal.integrated.gpuAcceleration": "on",
+	"editor.minimap.enabled": false,
+	"[python]": {
+		"gitlens.codeLens.symbolScopes": ["!Module"],
+		"editor.wordBasedSuggestions": false
+	},
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorWidth": 2,
+	"editor.inlineSuggest.enabled": true,
+	"wpilib.autoSaveOnDeploy": true,
+	"java.import.gradle.java.home": "C:\\Program Files\\Java\\jdk-11.0.12",
+	"[dockercompose]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"java": false,
+		"python": false,
+		"csharp": false,
+		"typescript": false,
+		"cpp": false,
+		"javascript": false,
+		"dockercompose": false,
+		"mdx": false,
+		"gradle": false,
+		"typescriptreact": false
+	},
+	"auto-build.defaultEnv.name": "MightyBoard1280",
+	"java.debug.settings.showToString": true,
+	"auto-build.silentBuild": false,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"editor.tabSize": 2,
+	"workbench.colorTheme": "Bearded Theme Will"
 }
