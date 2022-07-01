@@ -7,7 +7,6 @@
     - Java
     - Typescript
     - Python
-    - C++
     - C#
 
 - **Web Development Tools**
