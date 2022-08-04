@@ -9,7 +9,7 @@
     - Python
     - C#
 
-- **Web Development Tools**
+- **Web development tools**
     - [colortopia](https://colortopia.io/)
     - [tailwindcss](https://tailwindcss.com)
     - [fontisto](https://fontisto.com/)
